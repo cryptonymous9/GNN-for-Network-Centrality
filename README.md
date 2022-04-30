@@ -25,6 +25,7 @@ You can get the data as follows:
 
 Download the above files and move it to the `./data` directory.
 
+
 ### Quick Look
 
 `./data`: Data Directory
@@ -45,14 +46,15 @@ Download the above files and move it to the `./data` directory.
 
 `utils.py` : Helper function including Adjacency, Sparse, Torch Tensor conversion. 
 
+
 ## Key Results
 
 Obtained Hit Rates along with its margin of error on the test data.
 
-| Centrality Measure      | Top 5%     | Top 10% |Top 20%  |
-| :---                    |    :---:   | :---:   |    ---: |
-| Degree      | 89.05  $\pm$ 1.57  | 93.14 $\pm$ 1.20  |  99.11 $\pm$ 0.68  |
-| Betweenness | 83.20  $\pm$ 1.64      | 90.58 $\pm$ 1.47  | 98.25 $\pm$ 2.40   |
-| Closeness   | 78.92  $\pm$ 4.16      | 85.07 $\pm$ 3.84  | 89.25 $\pm$ 4.62   |
+| Centrality Measure | Top 5%     | Top 10% |Top 20%  |
+| :---               |    :---:   | :---:   |    ---: |
+| Degree      | 89.05 ± 1.57  | 93.14 ± 1.20  | 99.11 ± 0.68   |
+| Betweenness | 83.20 ± 1.64  | 90.58 ± 1.47  | 98.25 ± 2.40   |
+| Closeness   | 78.92 ± 4.16  | 85.07 ± 3.84  | 89.25 ± 4.62   |
 
 Other key results can be found in the directory `./Figures`
